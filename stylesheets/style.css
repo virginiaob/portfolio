@@ -1,0 +1,62 @@
+body {
+  padding-top: 112px;
+}
+
+.row {
+  padding-top:48px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.fixed-top {
+  position: unset;
+}
+
+.portfolio-item {
+  margin-bottom: 48px;
+  height: 400px;
+}
+.name {
+  margin-left: 0;
+  font-family: futura;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-family: chivo;
+  text-transform: uppercase;
+  color: lightgrey;
+  font-size: 12px;
+}
+
+.nav-item.active {
+  color: black;
+}
+
+.nav-item :hover {
+  color: black;
+}
+
+.col-contact{
+  font-family: chivo;
+  font-weight: regular;
+  font-weight: bold;
+  font-size: 24px;
+}
+.contact {
+  font-family: chivo;
+  font-weight: regular;
+  font-size: 16px;
+  list-style: none;
+}
+
+#logo {
+  margin-left: -25px;
+  margin-top:5px;
+}
