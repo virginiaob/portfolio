@@ -56,6 +56,15 @@ body {
   list-style: none;
 }
 
+.footer-contact-title {
+  float:right;
+}
+
+.footer-link-list {
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
 #logo {
   margin-left: -25px;
   margin-top:5px;
