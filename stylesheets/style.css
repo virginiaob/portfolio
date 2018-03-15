@@ -11,7 +11,7 @@ body {
     padding-top: 56px;
   }
 }
-
+/* @media display none col-3 */
 .fixed-top {
   position: unset;
 }
