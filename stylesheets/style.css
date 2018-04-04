@@ -2,6 +2,15 @@ body {
   padding-top: 112px;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: lightgrey;
+  text-decoration: none;
+}
+
 .row {
   padding-top:48px;
 }
