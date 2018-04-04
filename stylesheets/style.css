@@ -1,5 +1,7 @@
-body {
-  padding-top: 112px;
+@media (min-width: 992px) {
+  body {
+    padding-top: 112px;
+  }
 }
 
 a {
