@@ -22,14 +22,28 @@ a:hover {
     padding-top: 56px;
   }
 }
+
+#projects-portfolio {
+  padding-top: 0px;
+  margin-top: 15px;
+}
+
+.description {
+  font-family: chivo;
+  font-size: 16px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
 /* @media display none col-3 */
 .fixed-top {
   position: unset;
 }
 
 .portfolio-item {
-  margin-bottom: 48px;
-  height: 400px;
+  margin-bottom: 30px;
 }
 
 .card:hover .portfolio-img {
@@ -62,10 +76,17 @@ a:hover {
 
 .portfolio-title {
   margin-left: 0;
-  font-family: futura;
+  font-family: chivo;
   font-size: 24px;
   color: black;
   font-weight: bold;
+}
+
+.portfolio-subtitle {
+  margin-left: 0;
+  font-family: chivo;
+  font-size: 16px;
+  color: gray;
 }
 
 .name {
@@ -81,6 +102,7 @@ a:hover {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
+  padding-top: 5px;
   margin-bottom: 0;
 }
 .nav-item {
