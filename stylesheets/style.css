@@ -31,6 +31,43 @@ a:hover {
   margin-bottom: 48px;
   height: 400px;
 }
+
+.card:hover .portfolio-img {
+  opacity: 0;
+}
+
+.card:hover .portfolio-middle {
+  opacity: 1;
+}
+
+.portfolio-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.portfolio-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.portfolio-title {
+  margin-left: 0;
+  font-family: futura;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+
 .name {
   margin-left: 0;
   font-family: futura;
@@ -88,4 +125,8 @@ a:hover {
   margin-left: -22px;
   margin-top:5px;
   color:black;
+}
+
+.projects-cover {
+  width: 100%;
 }
