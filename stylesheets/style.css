@@ -152,3 +152,6 @@ a:hover {
 .projects-cover {
   width: 100%;
 }
+.embed-responsive-item {
+  padding-top: 72px;
+}
